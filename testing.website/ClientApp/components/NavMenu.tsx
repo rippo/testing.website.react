@@ -12,7 +12,7 @@ export class NavMenu extends React.Component<{}, {}> {
                         <span className='icon-bar'></span>
                         <span className='icon-bar'></span>
                     </button>
-                    <Link className='navbar-brand' to={ '/' }>Website.Core</Link>
+                    <Link className='navbar-brand' to={ '/' }>Puppeteer Testing</Link>
                 </div>
                 <div className='clearfix'></div>
                 <div className='navbar-collapse collapse'>
@@ -38,6 +38,18 @@ export class NavMenu extends React.Component<{}, {}> {
                             </NavLink>
                         </li>
                     </ul>
+                </div>
+                <div className="text-center">
+                <h3>
+                    <p>
+                    <span>Contact Me</span>
+                    </p>
+                    <p>
+                    <a target="_blank" href="https://twitter.com/rippo">
+                    <i className="fa fa-twitter"></i>rippo
+                        </a>
+                        </p>
+                 </h3>
                 </div>
             </div>
         </div>;

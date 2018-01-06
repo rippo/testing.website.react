@@ -103,7 +103,8 @@ export class Contact extends React.Component<RouteComponentProps<{}>, IContactSt
                     action={this.handler} hasError={this.state.nameError}
                     value={this.state.name} />
                 <button onClick={this.submitForm} disabled={this.state.formError}
-                    id="btnSubmit" type="submit" className="btn btn-primary">Send Enquiry</button >  </div >  {fireRedirect && ( < Redirect to =  {"/thanks"}/> )} </div >
+                    id="btnSubmit" type="submit" className="btn btn-primary">Send Enquiry</button>
+                </div >  {fireRedirect && ( < Redirect to =  {"/thanks"}/> )} </div >
     }
 
 }

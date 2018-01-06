@@ -32,7 +32,7 @@ export class FetchData extends React.Component<RouteComponentProps<{}>, FetchDat
     }
 
     private static renderForecastsTable(forecasts: WeatherForecast[]) {
-        return <table className='table'>
+        return <table id="result" className='table'>
             <thead>
                 <tr>
                     <th>Date</th>
