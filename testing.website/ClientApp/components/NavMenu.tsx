@@ -39,7 +39,7 @@ export class NavMenu extends React.Component<{}, {}> {
                         </li>
                     </ul>
                 </div>
-                <div className="text-center">
+                <div className="text-center hidden-xs">
                 <h3>
                     <p>
                     <span>Contact Me</span>

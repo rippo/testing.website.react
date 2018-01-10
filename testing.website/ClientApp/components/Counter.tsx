@@ -14,9 +14,7 @@ export class Counter extends React.Component<RouteComponentProps<{}>, CounterSta
     public render() {
         return <div>
             <h1>Counter</h1>
-
             <h2>Current count: <strong>{ this.state.currentCount }</strong></h2>
-
             <button className="btn btn-primary" onClick={ () => { this.incrementCounter() } }>Increment</button>
         </div>;
     }

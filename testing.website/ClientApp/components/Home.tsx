@@ -5,12 +5,7 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
     public render() {
         return <div className="row">
 
-            <div className="col-sm-2">
-            <br/><br/>
-                <img src="/static/images/puppeteer.png" className="img-responsive pull-left"/>
-            </div>
-
-            <div className="col-sm-10">
+            <div className="col-sm-10 col-xs-12">
             <h1>Hello from Rippo!</h1>
             <h3>
                 Puppeteer is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol. It can also be configured to use full (non-headless) Chrome or Chromium.    
@@ -26,6 +21,11 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
             <li>Capture a timeline trace of your site to help diagnose performance issues.</li>
             </ul>
             </div>
+
+            <div className="col-sm-2 hidden-xs text-center margin-top">
+                <img src="/static/images/puppeteer.png" className="img-responsive hidden-xs"/>
+            </div>
+            
 
         </div>;
     }
