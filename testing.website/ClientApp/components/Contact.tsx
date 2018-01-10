@@ -94,8 +94,8 @@ export class Contact extends React.Component<RouteComponentProps<{}>, IContactSt
         const {fireRedirect } = this.state
 
              return <div className="row">
-                <h1>Contact Us</h1>
                 <div className= "col-sm-6">
+                <h1>Contact Us</h1>
                 <Input name="email" placeholder="Enter email address" type="email"
                     action={this.handler} hasError={this.state.emailError}
                     value={this.state.email} />
