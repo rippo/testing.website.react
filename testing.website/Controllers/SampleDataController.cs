@@ -18,7 +18,7 @@ namespace testing.website.Controllers
         [HttpGet("[action]")]
         public IEnumerable<WeatherForecast> WeatherForecasts()
         {
-            Thread.Sleep(2000);
+            //Thread.Sleep(2000);
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
